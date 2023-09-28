@@ -1,0 +1,32 @@
+name: xylophone
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # If we don't mention the version number, then it means that the program is free to fetch any
+  # version it wants. But if we mention ^1.0.2, then we tell it specifically to fetch any major
+  # version from this particular version.
+  cupertino_icons: ^1.0.2   # Good, any version >= 1.0.2 but < 2.0.0
+  audioplayers: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
